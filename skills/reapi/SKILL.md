@@ -109,6 +109,13 @@ python3 scripts/reapi.py submit-model gpt-image-2 \
   --json '{"prompt":"a cute red panda","size":"1:1"}'
 ```
 
+## Model IDs
+
+Use only canonical `model` values documented by reAPI. Do not invent or rely on
+community aliases when submitting requests or reporting results. If the user
+gives an undocumented nickname, ask for the exact reAPI model ID or list the
+documented candidates from `references/models.json`.
+
 ## API Workflow
 
 1. Submit to `/api/v1/images/generations` or `/api/v1/videos/generations`.
