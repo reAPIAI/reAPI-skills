@@ -1,6 +1,6 @@
 ---
 name: reapi
-description: "Call the public reAPI service to generate images and videos through asynchronous API tasks. Use when the user asks to use reAPI/reapi.ai, generate media with reAPI models, submit image or video generation jobs, poll task status, retrieve generated image_urls/video_urls, list example model payloads, or troubleshoot reAPI API responses. Requires a reAPI API key in REAPI_API_KEY or REAPI_KEY; default base URL is https://reapi.ai."
+description: "Call public reAPI APIs to submit image/video generation tasks, poll task status, and return generated media URLs. Requires REAPI_API_KEY or REAPI_KEY from https://reapi.ai."
 ---
 
 # reAPI
