@@ -1,0 +1,293 @@
+{
+  "models": [
+    {
+      "id": "gpt-image-2",
+      "endpoint": "images",
+      "description": "Image generation and editing",
+      "example": {
+        "model": "gpt-image-2",
+        "prompt": "a cute red panda eating bamboo, photorealistic",
+        "size": "1:1"
+      }
+    },
+    {
+      "id": "gpt-image-2-official",
+      "endpoint": "images",
+      "description": "Official/stable gpt-image-2 channel",
+      "example": {
+        "model": "gpt-image-2-official",
+        "prompt": "a studio product photo of a ceramic espresso cup",
+        "size": "1:1",
+        "quality": "medium"
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image-preview",
+      "endpoint": "images",
+      "description": "Gemini 2.5 Flash image preview",
+      "example": {
+        "model": "gemini-2.5-flash-image-preview",
+        "prompt": "a clean editorial product image of wireless headphones",
+        "size": "1:1",
+        "n": 1
+      }
+    },
+    {
+      "id": "gemini-2.5-flash-image-preview-official",
+      "endpoint": "images",
+      "description": "Official Gemini 2.5 Flash image preview channel",
+      "example": {
+        "model": "gemini-2.5-flash-image-preview-official",
+        "prompt": "a clean editorial product image of wireless headphones",
+        "size": "1:1",
+        "n": 1
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-preview",
+      "endpoint": "images",
+      "description": "Gemini 3 Pro image preview",
+      "example": {
+        "model": "gemini-3-pro-image-preview",
+        "prompt": "editorial fashion portrait, clean studio lighting",
+        "size": "1:1",
+        "n": 1
+      }
+    },
+    {
+      "id": "gemini-3-pro-image-preview-official",
+      "endpoint": "images",
+      "description": "Official Gemini 3 Pro image preview channel",
+      "example": {
+        "model": "gemini-3-pro-image-preview-official",
+        "prompt": "editorial fashion portrait, clean studio lighting",
+        "size": "1:1",
+        "n": 1
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview",
+      "endpoint": "images",
+      "description": "Gemini 3.1 Flash image preview",
+      "example": {
+        "model": "gemini-3.1-flash-image-preview",
+        "prompt": "a cinematic concept image of a futuristic train station",
+        "size": "16:9",
+        "n": 1
+      }
+    },
+    {
+      "id": "gemini-3.1-flash-image-preview-official",
+      "endpoint": "images",
+      "description": "Official Gemini 3.1 Flash image preview channel",
+      "example": {
+        "model": "gemini-3.1-flash-image-preview-official",
+        "prompt": "a cinematic concept image of a futuristic train station",
+        "size": "16:9",
+        "n": 1
+      }
+    },
+    {
+      "id": "doubao-seedream-5-0-lite",
+      "endpoint": "images",
+      "description": "Seedream 5.0 Lite image generation",
+      "example": {
+        "model": "doubao-seedream-5-0-lite",
+        "prompt": "a bright illustrated travel poster for Kyoto",
+        "aspect_ratio": "3:4",
+        "resolution": "2K",
+        "n": 1
+      }
+    },
+    {
+      "id": "doubao-seedance-2.0",
+      "endpoint": "videos",
+      "description": "Seedance 2.0 video generation",
+      "example": {
+        "model": "doubao-seedance-2.0",
+        "prompt": "a cinematic red panda walking through bamboo",
+        "duration": 5,
+        "resolution": "720p",
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "doubao-seedance-2.0-fast",
+      "endpoint": "videos",
+      "description": "Seedance 2.0 fast video generation",
+      "example": {
+        "model": "doubao-seedance-2.0-fast",
+        "prompt": "a cinematic red panda walking through bamboo",
+        "duration": 5,
+        "resolution": "720p",
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "doubao-seedance-2.0-face",
+      "endpoint": "videos",
+      "description": "Seedance 2.0 face-focused video generation",
+      "example": {
+        "model": "doubao-seedance-2.0-face",
+        "prompt": "a close-up cinematic portrait with subtle movement",
+        "duration": 5,
+        "resolution": "720p",
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "doubao-seedance-2.0-fast-face",
+      "endpoint": "videos",
+      "description": "Seedance 2.0 fast face-focused video generation",
+      "example": {
+        "model": "doubao-seedance-2.0-fast-face",
+        "prompt": "a close-up cinematic portrait with subtle movement",
+        "duration": 5,
+        "resolution": "720p",
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "seedance-2.0-beta",
+      "endpoint": "videos",
+      "description": "Seedance 2.0 beta channel",
+      "example": {
+        "model": "seedance-2.0-beta",
+        "prompt": "a handheld shot of a robot barista making latte art",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "resolution": "720p"
+      }
+    },
+    {
+      "id": "seedance-2.0-fast-beta",
+      "endpoint": "videos",
+      "description": "Seedance 2.0 fast beta channel",
+      "example": {
+        "model": "seedance-2.0-fast-beta",
+        "prompt": "a handheld shot of a robot barista making latte art",
+        "duration": 5,
+        "aspect_ratio": "16:9",
+        "resolution": "720p"
+      }
+    },
+    {
+      "id": "happyhorse-1.0",
+      "endpoint": "videos",
+      "description": "HappyHorse 1.0 video generation",
+      "example": {
+        "model": "happyhorse-1.0",
+        "prompt": "a playful clay animation of a tiny chef cooking pancakes",
+        "duration": 5,
+        "resolution": "720p",
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "happyhorse-1.0-official",
+      "endpoint": "videos",
+      "description": "Official HappyHorse 1.0 channel",
+      "example": {
+        "model": "happyhorse-1.0-official",
+        "prompt": "a playful clay animation of a tiny chef cooking pancakes",
+        "duration": 5,
+        "resolution": "720p",
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "enhance-video-1.0",
+      "endpoint": "videos",
+      "description": "Video enhancement",
+      "example": {
+        "model": "enhance-video-1.0",
+        "video_url": "https://example.com/input.mp4",
+        "resolution": "1080p",
+        "tool_version": "standard"
+      }
+    },
+    {
+      "id": "viduq3-pro",
+      "endpoint": "videos",
+      "description": "Vidu Q3 Pro video generation",
+      "example": {
+        "model": "viduq3-pro",
+        "prompt": "a sweeping drone shot over a neon coastal city",
+        "duration": 5,
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "viduq3-turbo",
+      "endpoint": "videos",
+      "description": "Vidu Q3 Turbo video generation",
+      "example": {
+        "model": "viduq3-turbo",
+        "prompt": "a sweeping drone shot over a neon coastal city",
+        "duration": 5,
+        "size": "16:9"
+      }
+    },
+    {
+      "id": "grok-imagine-1.0-video",
+      "endpoint": "videos",
+      "description": "Grok Imagine video generation",
+      "example": {
+        "model": "grok-imagine-1.0-video",
+        "prompt": "a surreal glass forest under moonlight",
+        "duration": 6,
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "veo3.1-fast",
+      "endpoint": "videos",
+      "description": "VEO 3.1 fast channel",
+      "example": {
+        "model": "veo3.1-fast",
+        "prompt": "a documentary shot of waves crashing against black rocks",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "veo3.1-quality",
+      "endpoint": "videos",
+      "description": "VEO 3.1 quality channel",
+      "example": {
+        "model": "veo3.1-quality",
+        "prompt": "a documentary shot of waves crashing against black rocks",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "veo3.1-lite",
+      "endpoint": "videos",
+      "description": "VEO 3.1 lite channel",
+      "example": {
+        "model": "veo3.1-lite",
+        "prompt": "a documentary shot of waves crashing against black rocks",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "veo3.1-fast-official",
+      "endpoint": "videos",
+      "description": "Official VEO 3.1 fast channel",
+      "example": {
+        "model": "veo3.1-fast-official",
+        "prompt": "a documentary shot of waves crashing against black rocks",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "id": "veo3.1-quality-official",
+      "endpoint": "videos",
+      "description": "Official VEO 3.1 quality channel",
+      "example": {
+        "model": "veo3.1-quality-official",
+        "prompt": "a documentary shot of waves crashing against black rocks",
+        "aspect_ratio": "16:9"
+      }
+    }
+  ]
+}

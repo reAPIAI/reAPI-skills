@@ -1,0 +1,4 @@
+interface:
+  display_name: "reAPI"
+  short_description: "Generate media with reAPI"
+  default_prompt: "Use $reapi to generate an image with the public reAPI service."

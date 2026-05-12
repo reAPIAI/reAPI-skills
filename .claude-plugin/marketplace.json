@@ -1,0 +1,38 @@
+{
+  "name": "reapi-skills",
+  "owner": {
+    "name": "reAPI Team",
+    "email": "support@reapi.ai"
+  },
+  "metadata": {
+    "description": "Agent skill for calling the public reAPI service at https://reapi.ai to submit asynchronous image and video generation tasks and poll generated media URLs.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "reapi-skills",
+      "description": "Call reAPI public APIs for AI image and video generation. Requires REAPI_API_KEY or REAPI_KEY from https://reapi.ai Dashboard -> API Keys.",
+      "source": "./",
+      "version": "1.0.0",
+      "author": {
+        "name": "reAPI Team",
+        "email": "support@reapi.ai"
+      },
+      "homepage": "https://reapi.ai",
+      "license": "MIT",
+      "keywords": [
+        "reapi",
+        "api",
+        "image-generation",
+        "video-generation",
+        "media-generation",
+        "ai-api"
+      ],
+      "category": "ai-generation",
+      "strict": false,
+      "skills": [
+        "./skills/reapi"
+      ]
+    }
+  ]
+}
